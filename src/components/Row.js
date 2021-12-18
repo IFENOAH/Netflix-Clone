@@ -1,7 +1,5 @@
 import React, {useEffect, useState} from 'react'
 import axios from './axios'
-import requests from './requests'
-
 
 
 function Row({ title, fetchUrl, largePoster = false }) {
